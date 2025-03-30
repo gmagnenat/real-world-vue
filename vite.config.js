@@ -17,7 +17,7 @@ export default defineConfig({
       '/api': {
         target: 'http://my-json-server.typicode.com',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ''),
+        rewrite: (path) => path.replace(/^\/api/, '/gmagnenat/fake-json-server'),
       },
     },
   },
